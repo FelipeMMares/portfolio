@@ -1,0 +1,298 @@
+/*estilo geral*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-color: #0c1029;
+    height: 100vh;
+
+}
+.interface{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+ .flex{
+    display: flex;
+}
+button:hover{
+    box-shadow: 0px 0px 8px #4eb7f9;
+    background-color: rgb(11, 133, 214);
+}
+
+/*estilo do cabeçalho*/
+header{
+    padding: 40px 4%;
+    background-color: #043478;
+    box-shadow: 0 0 20px 35px #043478;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a {
+    color: rgb(22, 134, 189);
+    text-decoration: none;
+    display: inline-block; 
+    transition: .2s;   
+}
+
+header a:hover{
+    color: #39cce6;
+    cursor: pointer;
+    transform: scale(1.10);
+}
+header nav ul{
+    list-style: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 30px;
+    font-size: 20px;
+}
+
+header .btn-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: rgb(2, 42, 68);
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    color: #063bc0;
+}
+
+header .btn-contato button:hover{
+    color:#39cce6;
+}
+
+
+/*estilo do topo do site*/
+section .topo-do-site{
+    padding: 40px 4%;
+}
+
+section .topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.topo-do-site h1{
+    margin: 40px 30px;
+    padding: 60px 30px;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+
+}
+
+.topo-do-site .txt-topo-site h1 span{
+    color: rgb(17, 148, 213);
+    display: block;
+    
+}
+.topo-do-site .txt-topo-site p{
+    color: rgb(46, 168, 228);
+    margin: 40px 60px;
+    font-size: 25px;
+    text-align: justify;
+}
+
+.topo-do-site .img-topo-site{
+    padding: 50px 50px;
+    margin: 50px 0px;
+}
+
+/*estilo das ferramentas*/
+section .ferramemtas{
+    padding: 40px 4%;
+    margin: 20px 10px;
+}
+
+.ferramemtas .flex{
+    align-items: center;
+    justify-content: space-between;
+}
+
+.txt-ferramentas h2{
+    padding: 20px 4%;
+    margin: 20px 20px;
+    color: white;
+    font-size: 35px;
+}
+
+.txt-ling{
+    padding: 20px 4%;
+    margin: 10px 10px;
+    color: white;
+    font-size: 20px;
+}
+
+.img-fer-ling{
+    padding: 20px 0;
+    margin: 5px 5px;
+}
+
+.txt-sql{
+    padding: 20px 4%;
+    margin: 10px 10px;
+    color: white;
+    font-size: 20px;
+}
+
+.img-fer-sql{
+    padding: 20px 0;
+    margin: 5px 10px;
+}
+
+.txt-ide{
+    padding: 20px 4%;
+    margin: 10px 10px;
+    color: white;
+    font-size: 20px;
+}
+
+.img-fer-ide{
+    padding: 20px 0;
+    margin: 10px 10px;
+}
+
+/*estilo do sobre-mim*/
+section .sobre{
+    padding: 40px 4%;
+}
+
+.sobre .flex{
+    align-items: center;
+    gap: 60px;
+    
+}
+.sobre .txt-sobre{
+    color: #fff;
+}
+
+.sobre .txt-sobre h2{
+    font-size: 35px;
+    margin: 20px 30px;
+    margin-top: 40px;
+    padding: 20px 0;
+}
+
+
+
+.sobre .txt-sobre p{
+    margin: 20px 60px;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.btn-social button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color: #0c1029;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    margin: 20px 5px;
+    transition: .2s;
+}
+
+.btn-social button:hover{
+    transform: scale(1.05);
+}
+
+/*estilo das experiências*/
+section .experiencias{
+    padding: 80px 4%;
+}
+
+.experiencias .flex{
+    align-items: center;
+    gap: 60px;
+}
+
+.experiencias .txt-exp{
+    color: #fff;
+}
+
+.experiencias .txt-exp h2{
+    font-size: 30px;
+    margin: 30px 40px;
+}
+
+.experiencias .txt-exp p{
+    margin: 20px 60px;
+    text-align: justify;
+    font-size: 20px;
+}
+
+/*estilo da formação*/
+section .formacao{
+    padding: 80px 4%;
+}
+
+.formacao .flex{
+    align-items: center;
+    gap: 60px;
+}
+
+.formacao .txt-form{
+    color: white;
+}
+
+.formacao .txt-form h2{
+    font-size: 30px;
+    margin: 30px 40px;
+}
+
+.formacao .txt-form p{
+    margin: 20px 60px;
+    text-align: justify;
+    font-size: 20px;
+}
+
+/* estilo do rodapé */
+footer{
+    padding: 60px 4%;
+    box-shadow: 0 0 40px 30px #000000;
+    background-color: #000000;
+}
+
+footer .flex{
+    justify-content: space-between;
+}
+
+footer .line-footer{
+    padding: 20px 10px;
+}
+
+.borda{
+    border-top: 2px solid rgb(0, 0, 139);
+}
+
+footer .line-footer .txt-footer{
+    color: white;
+    font-size: 16px;
+}
+
+footer .line-footer .contato p{
+    color: rgb(0, 253, 248);
+    font-size: 18x;
+}
+footer .line-footer p i{
+    font-size: 20px;
+    color: rgb(0, 253, 248);
+}
+
+.txt-footer{
+    text-align: center;
+}
